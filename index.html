@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple website</title>
+  <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+  <body class="dark-theme">  
+  <h1>Task List</h1>
+  <p id="msg">Current tasks:</p>
+  <ul>
+    <li class="list">Add visual styles</li>
+    <li class="list">Add light and dark themes</li>
+    <li>Enable switching the theme</li>
+  </ul>
+  <!--the <button> element in this example has a class attribute that you will use to apply CSS styles.-->
+    <div>
+      <button class="btn">Dark</button>
+    </div>
+
+  <!---The <script> element could be placed in the <head> or elsewhere in the <body>. However, putting <script> element at the end of the <body> section enables all the page content to display on the screen first, and then load the script.
+-->
+  <script src="app.js"></script> 
+  <!--Adding the <noscript> element is an example of fault tolerance or graceful degradation. By using the <noscript> element, your code can detect and plan for when a feature isn't supported or available.
+-->
+  <noscript>You need to enable JavaScript to view the full site.</noscript>
+
+</body>
+</html>
